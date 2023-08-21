@@ -3,7 +3,7 @@ import Link from "next/link"
 import { buttonVariants } from "@/components/ui/button"
 import { Icons } from "@/components/icons"
 import { MainNav } from "@/components/main-nav"
-import type {NavItem} from "@/types/nav";
+import type { NavItem } from "@/types/nav";
 
 const items: NavItem[] = [
   // {
