@@ -11,19 +11,19 @@ export default function IndexPage() {
         </div>
         <div style={{ flex: '2 2 0'}} className="h-min">
           <h1 className="text-3xl font-extrabold">
-            👋 hey, i&apos;m soham!
+            hey, i&apos;m soham! 👋
           </h1>
           <p className="mt-2">
             i&apos;m a sophomore at stanford, currently based in austin. i love building
-            companies that solve real-world problems.
+            startups that solve real-world problems.
           </p>
         </div>
       </div>
       <h2>companies</h2>
       <ul>
-        <li>co-founder @ <a href="https://admityogi.com">admityogi</a> (2022-2023)</li>
         <li>founder @ <a href="https://www.orbis.org/en">ocularcheck</a> (2019-2021; acquired)</li>
-        <li>?</li>
+        <li>co-founder @ <a href="https://admityogi.com">admityogi</a> (2022-2023; acquired)</li>
+        <li>? (2023-now)</li>
       </ul>
       <h2>get in touch</h2>
       <p>
