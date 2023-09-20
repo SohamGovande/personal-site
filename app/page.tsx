@@ -1,3 +1,5 @@
+"use client";
+
 function mask(str: string) {
   // Move every character to the right by 1
   return str.split('').map((char) => {
