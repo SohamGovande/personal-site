@@ -12,8 +12,7 @@ export default function IndexPage() {
             hey, i&apos;m soham! 👋
           </h1>
           <p className="mt-2">
-            i&apos;m a sophomore at stanford, currently based in austin. i love building
-            startups that solve real-world problems.
+            i&apos;m a student at stanford, currently based in austin. i build companies.
           </p>
         </div>
       </div>
