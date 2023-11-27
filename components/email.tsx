@@ -1,30 +1,6 @@
 "use client";
 
-import {useState} from "react";
-
-function mask(str: string) {
-  // Move every character to the right by 1
-  return str.split('').map((char) => {
-    const charCode = char.charCodeAt(0)
-    if (charCode >= 97 && charCode <= 122) {
-      return String.fromCharCode(charCode + 1)
-    } else {
-      return char
-    }
-  }).join('')
-}
-
-function unmask(str: string) {
-  // Move every character to the left by 1
-  return str.split('').map((char) => {
-    const charCode = char.charCodeAt(0)
-    if (charCode >= 97 && charCode <= 122) {
-      return String.fromCharCode(charCode - 1)
-    } else {
-      return char
-    }
-  }).join('')
-}
+import {useState} from "react"
 
 export default function Email() {
   const [shown, setShown] = useState(false)
