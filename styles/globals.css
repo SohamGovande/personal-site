@@ -4,7 +4,7 @@
 
 @layer base {
   :root {
-    --background: #f2f3ef;
+    --background: #f9f9f9;
     --foreground: #2d2d2d;
 
     --muted: hsl(210 40% 96.1%);
@@ -26,7 +26,7 @@
     --secondary-foreground: hsl(222.2 47.4% 11.2%);
 
     --accent: hsl(210 40% 96.1%);
-    --accent-foreground: rgb(199, 112, 69);
+    --accent-foreground: rgb(22, 118, 218);
 
     --destructive: hsl(0 100% 50%);
     --destructive-foreground: hsl(210 40% 98%);

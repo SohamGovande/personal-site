@@ -1,5 +1,7 @@
 "use client";
 
+import {useState} from "react";
+
 function mask(str: string) {
   // Move every character to the right by 1
   return str.split('').map((char) => {
@@ -25,11 +27,18 @@ function unmask(str: string) {
 }
 
 export default function Email() {
-  const onSendEmail = () => {
-    window.open(`mailto:${unmask('whtpibn@hnbjm.dpn')}`)
-  }
+  const [shown, setShown] = useState(false)
 
-  return <p onClick={onSendEmail} className="cursor-pointer">
-    <code>[lastname]</code> at stanford dot edu
-  </p>
+  if (!shown) {
+    return <p onClick={() => setShown(true)} className="cursor-pointer">
+      click to see email address <i>(<code>[lastname]</code> at stanford dot edu)</i>
+    </p>
+  } else {
+    return <p>
+      great, you&apos;re not a robot! here you go:{' '}
+      <a href='mailto:govande@stanford.edu' className='font-bold'>
+        govande@stanford.edu
+      </a>
+    </p>
+  }
 }
